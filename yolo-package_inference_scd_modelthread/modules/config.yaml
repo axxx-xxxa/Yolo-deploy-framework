@@ -1,0 +1,12 @@
+# enum { "yolov3", "yolov4", "yolov4-tiny", "yolov5" } 
+# enum { "kINT8","kHALF","kFLOAT" } 
+gpu_id: 0 # 给多GPU做准备
+net_type: 2 # 模型类型 
+precision: 1 # 模型精度 原来的框架这么搞的懒得改了
+batch_size: 1 
+detect_thresh: 0.2 # 可调
+enginePath: "D:/qi/models/2022_9_16_yolov4_tiny_5cate_v4_1_resize_best-kHALF-batch1.engine"
+configFilePath: "../configs/2022_9_16_yolov4_tiny_5cate_guoyang_shigaoban_v4_1_resize_testing.cfg"
+
+
+
