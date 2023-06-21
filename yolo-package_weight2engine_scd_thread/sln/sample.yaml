@@ -1,0 +1,11 @@
+type: yolov5s_cls # support {yolov5s_cls, yolov4_tiny, yolov5s_seg}
+detect_thresh: 0.05
+batch_size: 18
+precision: FP32 # support FP32 FP16 
+
+# if yolov4_tiny
+cfg: D:\qi\models\cfg(1)\shouzhang\model1\2022_2_25_yolov4_tiny_3cate_lanfan_shouzhang_v12.cfg
+weight: D:\qi\models\cfg(1)\shouzhang\model1\2022_2_25_yolov4_tiny_3cate_lanfan_shouzhang_v12_final.weights
+
+# if yolov5s_cls || yolov5s_seg
+onnx: best_dynamic_b.onnx
