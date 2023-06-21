@@ -1,0 +1,12 @@
+WorkLocation:
+  - id: 1
+    models:
+     - 'D:\qi\models\cfg(1)\configs\shouzhang_cls.yaml'
+     #- 'D:\qi\models\cfg(1)\configs\shouzhang2.yaml'
+
+
+  # - id: 2
+  #   models:
+  #    - 'config2.yaml'
+  #    - 'config1.yaml'
+  #    - 'config3.yaml'

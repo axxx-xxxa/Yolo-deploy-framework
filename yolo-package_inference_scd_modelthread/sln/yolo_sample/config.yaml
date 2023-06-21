@@ -1,0 +1,14 @@
+# enum { "yolov3", "yolov4", "yolov4-tiny", "yolov5" } 
+# enum { "kINT8","kHALF","kFLOAT" } 
+gpu_id: 0 # 给多GPU做准备
+net_type: 2 # 模型类型 
+precision: 2 # 模型精度 
+batch_size: 8 
+detect_thresh: 0.05 # 可调
+nmsThresh: 0.4 # 可调
+classes: 5
+cl_n: ["pd","pd_d","yl","kkk"]
+enginePath: "D:/qi/models/yolov4-tiny-shigaoban/9_9_5class_cfg/2022_9_9_yolov4_tiny_5cate_guoyang_shigaoban_v4_1_best-kFLOAT-batch8.engine"
+configFilePath: "D:/qi/models/yolov4-tiny-shigaoban/9_9_5class_cfg/2022_9_9_yolov4_tiny_5cate_guoyang_shigaoban_v4_1.cfg"
+
+

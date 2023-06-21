@@ -1,0 +1,23 @@
+WorkLocation:
+  - id: 1
+    models:
+    - thread: 
+        - 'D:\qi\models\cfg(1)\configs\shouzhang_cls.yaml'
+    - thread: 
+        - 'D:\qi\models\cfg(1)\configs\shouzhang1.yaml'
+    #- thread:
+        - 'D:\qi\models\cfg(1)\configs\shouzhang2.yaml'
+  - id: 2
+    models:
+    - thread: 
+        - 'D:\qi\models\cfg(1)\configs\shouzhang_cls.yaml'
+    - thread:
+        - 'D:\qi\models\cfg(1)\configs\shouzhang1.yaml'
+        - 'D:\qi\models\cfg(1)\configs\shouzhang2.yaml'
+  - id: 3
+    models:
+    - thread: 
+        - 'D:\qi\models\cfg(1)\configs\shouzhang_cls.yaml'
+    - thread:
+        - 'D:\qi\models\cfg(1)\configs\shouzhang1.yaml'
+        - 'D:\qi\models\cfg(1)\configs\shouzhang2.yaml'
